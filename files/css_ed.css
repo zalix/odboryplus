@@ -1,0 +1,151 @@
+/* FAQ section */
+
+.image_qr {
+  max-width: 200px; 
+}
+
+.question {
+color: #007BFF;
+text-decoration: none;
+font-weight:bold;
+display:block;
+padding: 30px 24px 24px;
+margin-top: 1em;
+cursor: pointer;
+background: #fff;
+border-radius: 12px;
+box-shadow: 0 4px 30px rgba(0,0,0,.15);
+color:black;
+}
+        
+.answer {
+display: none;
+padding: 30px 24px 24px;
+margin-top: 5px;
+background: #fff;
+border-radius: 12px;
+box-shadow: 0 4px 30px rgba(0,0,0,.15);
+color:black;
+}
+
+.frame_text {
+display: flex;
+padding: 1em;
+margin-top: 5px;
+margin-bottom:1em;
+background: #fff;
+border-radius: 12px;
+box-shadow: 0 4px 30px rgba(0,0,0,.15);
+color:black;
+line-height:1.7em;
+}
+
+.frame_text .titulok {
+font-size: 1.7em;
+margin-bottom:1em;
+
+}
+
+.stories_img {
+width: 130px;
+height: 130px;
+margin-right:1em;
+}
+
+.txt_strng {
+font-weight:bold;
+}
+.txt_hlfstrng {
+
+color:grey;
+}
+
+.numb_grad {
+margin-right:1em;
+}
+
+.numb_grad p {
+padding:1em;
+ background: rgb(232,168,72);
+background: linear-gradient(90deg, rgba(232,168,72,1) 0%, rgba(228,80,55,1) 80%); 
+border-radius:60px;
+color:black;
+font-weight:bold;
+display:block;
+width:50px;
+height:50px;
+text-align:center;
+padding-top:0.6em;
+}
+
+#advantages .frame_text {
+padding-top:2em;
+box-shadow:none;
+}
+
+#advantages .inner_container {
+box-shadow: 0 4px 30px rgba(0,0,0,.15);
+border-radius: 12px;
+background: #fff;
+}
+
+.white_back {
+display:block;
+background-color: white;
+color:#e8a848;
+padding: 10px;
+border-radius: 10px;
+}
+
+
+/* button */
+
+
+.oplus_button {
+  display: inline-block;
+  background-color: #e8a848;
+  border-radius: 12px;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: white;
+  font-size: 1.5em;
+ 
+}
+
+.oplus_button:hover {
+  background-color: #e33131;
+}
+.txt_strng.titulok {
+  line-height: 1.5em !important;
+}
+
+#deeplink.oplus_button {
+  margin-top: 0.5em;
+}
+
+.label_dropdown {
+padding-left:0.7em;
+}
+
+/* responzivita */
+header.hero__body, #jedinecne_benefity article, #advantages article {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.partners article.container {
+  margin-left: 2em;
+}
+
+@media only screen and (max-width: 650px) {
+#advantages .frame_text {
+  flex-direction: column;
+}
+}
+
+.union a {
+text-decoration:none;
+}
